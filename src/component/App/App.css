@@ -1,0 +1,17 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+    position: relative;
+
+  height:90vh ;
+  background: rgb(43, 42, 42);
+}
+/* .alert{
+  z-index: 50px;
+  color: white;
+} */

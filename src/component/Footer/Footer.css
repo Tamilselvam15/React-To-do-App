@@ -1,0 +1,14 @@
+.footer-content {
+    background: #3eb78e;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: url('./images/logos.webp');
+    background-size: contain;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer-text {
+    width: 100%;
+}

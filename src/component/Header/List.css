@@ -1,0 +1,151 @@
+.list-container {
+    margin-top: 8.5px;
+    background: linear-gradient(10deg, rgb(82, 82, 250), rgb(134, 222, 134), rgb(239, 239, 149), rgb(202, 186, 186), rgb(222, 179, 87));
+    /* border: solid white; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.list-box {
+    padding: 1%;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    overflow-y: auto;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgb(75, 37, 78);
+    background-image: url('./images/logos.webp');
+    background-size: contain;
+    background-size: 20%;
+    background-repeat: repeat;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    gap: 5px;
+    z-index: 100;
+    box-shadow: 0px .5px 6px black;
+
+}
+
+.alerts {
+    /* border: solid black; */
+    width: 30%;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    top: 29%;
+    left: 35%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: absolute;
+}
+
+.values {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+.check1 {
+    width: 10%;
+    /* border: solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.check1 input[type="checkbox"] {
+    transform: scale(2);
+}
+
+.value-data {
+    width: 70%;
+    margin-left: 20px;
+    overflow-x: auto;
+    color: black;
+    font-weight: bold;
+}
+
+.value-date {
+    width: 30%;
+    color: black;
+    font-weight: bold;
+}
+
+.new-items {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+    background-color: rgb(209, 211, 206);
+    justify-content: space-evenly;
+}
+
+.deledit {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.edit {
+    width: 40%;
+    height: 3vh;
+    border-radius: 6px;
+    background-color: green;
+
+}
+
+.edit:hover {
+    background-color: rgb(62, 150, 62);
+}
+
+.delete {
+    width: 40%;
+    height: 3vh;
+    border-radius: 6px;
+    background-color: red;
+
+}
+
+.delete:hover {
+    background-color: rgb(92, 18, 18);
+}
+
+.edit-input {
+    height: 5vh;
+
+}
+
+.save {
+    width: 40%;
+    height: 3vh;
+    background-color: rgb(34, 22, 102);
+    border-radius: 6px;
+}
+
+.save:hover {
+    background-color: rgb(63, 37, 213);
+}
+
+.edit-input {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    height: 6.5vh;
+    color: black;
+}

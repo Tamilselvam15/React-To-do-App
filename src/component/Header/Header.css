@@ -1,0 +1,49 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+
+}
+
+.title {
+    background-color: rgb(125, 184, 114);
+    color: #000;
+    width: 40%;
+    background-image: url('./images/logos.webp');
+    background-size: contain;
+    border-top-left-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head-content {
+
+    background-color: rgb(125, 184, 114);
+    width: 60%;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('./images/logos.webp');
+    background-size: contain;
+    justify-content: space-evenly;
+
+
+}
+
+.lins {
+    color: #000;
+    width: 150px;
+    height: 4vh;
+    font-size: larger;
+    background-image: url('./images/logos.webp');
+    background-size: contain;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.lins:hover {
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px;
+}

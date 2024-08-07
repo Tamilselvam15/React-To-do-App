@@ -1,0 +1,19 @@
+.about-content {
+    background: #904646;
+    /* border: solid white; */
+    height: 70vh;
+    text-shadow: 0px 3px 0px rgb(13, 13, 13);
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    margin-top: 6px;
+}
+
+.hand{
+    width: 50px;
+    height: 50px;
+}
